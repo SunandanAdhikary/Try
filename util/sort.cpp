@@ -82,3 +82,11 @@ void printArray(int arr[], int size){
 		cout << arr[i] << " "; 
 	cout << endl; 
 } 
+
+void mainDummy_sort(){
+int arr[] = {64, 25, 12, 11, 22}; 
+	int n = sizeof(arr)/sizeof(arr[0]); 
+	selectionSort(arr, n); 
+	cout << "Sorted array: \n"; 
+	printArray(arr, n);
+}
