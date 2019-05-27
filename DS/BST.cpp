@@ -39,7 +39,7 @@ bst_node* print(bst_node* root,string order){
 }
 
 bst_node* del(bst_node* root,int k){
-    
+    if(root!=NULL)
 }
 
 bst_node* findMin(bst_node* root){
